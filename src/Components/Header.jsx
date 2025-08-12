@@ -2,7 +2,16 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md fixed w-full z-50">
       <nav className="max-w-6xl mx-auto flex justify-between items-center p-4">
-        <h1 className="text-2xl font-bold text-indigo-600">Provash Ray</h1>
+        <a
+          href="#HeroSection"
+          className="rounded-md bg-gray-100 text-gray-800 font-medium px-4 py-2
+  shadow-md shadow-gray-400
+  hover:shadow-inner hover:shadow-gray-300
+  active:shadow-inner active:shadow-gray-300
+  focus:outline-none focus:ring-2 focus:ring-gray-400"
+        >
+          Provash Roy
+        </a>
         <ul className="flex space-x-6">
           <li>
             <a

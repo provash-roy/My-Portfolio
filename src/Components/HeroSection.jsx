@@ -1,6 +1,9 @@
 const HeroSection = () => {
   return (
-    <section className="bg-gray-50 h-screen flex flex-col justify-center items-center text-center">
+    <section
+      id="HeroSection"
+      className="bg-gray-50 h-screen flex flex-col justify-center items-center text-center"
+    >
       <h2 className="text-4xl md:text-6xl font-bold">Hi, I'm Provash</h2>
       <p className="mt-4 text-lg text-gray-600">
         MERN Stack Developer | Problem Solver | Learner
