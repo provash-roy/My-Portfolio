@@ -69,7 +69,11 @@ const Contact = () => {
         />
         <button
           type="submit"
-          className="bg-indigo-600 text-white py-3 rounded-md hover:bg-indigo-700 transition"
+          className="rounded-md bg-gray-100 text-gray-800 font-medium px-4 py-2
+  shadow-md shadow-gray-400
+  hover:shadow-inner hover:shadow-gray-300
+  active:shadow-inner active:shadow-gray-300
+  focus:outline-none focus:ring-2 focus:ring-gray-400"npm 
         >
           Send Message
         </button>
